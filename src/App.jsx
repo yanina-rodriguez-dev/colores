@@ -8,12 +8,14 @@ function App() {
 
   return (
     <>
-     <Container className="py-4">
+     <Container className="py-4 main">
        <h1>Administrar colores</h1>
        <hr />
        <Formulario></Formulario>
      </Container>
-      
+      <footer className="bg-secondary py-4 text-center">
+      <p>&copy;Todos los derechos reservados</p>
+      </footer>
     </>
   )
 }
