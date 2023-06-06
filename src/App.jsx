@@ -5,7 +5,6 @@ import Formulario from "./components/Formulario"
 
 function App() {
  
-
   return (
     <>
      <Container className="py-4 main">

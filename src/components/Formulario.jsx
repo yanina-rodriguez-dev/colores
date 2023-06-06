@@ -1,5 +1,6 @@
 import React from 'react';
 import { Form, Button } from 'react-bootstrap';
+import ListaColores from "./ListaColores";
 
 const Formulario = () => {
     return (
@@ -19,6 +20,7 @@ const Formulario = () => {
                     </Button>
                 </Form.Group>
             </Form>
+            <ListaColores></ListaColores>
         </div>
     );
 };
